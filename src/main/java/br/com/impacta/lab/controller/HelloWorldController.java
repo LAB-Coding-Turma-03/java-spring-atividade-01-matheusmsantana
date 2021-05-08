@@ -13,7 +13,7 @@ public class HelloWorldController {
 	public ResponseEntity<String> helloWorld() {
 		
 		//Digite -> Hello world !
-		return ResponseEntity.ok("Digite Aqui");
+		return ResponseEntity.ok("Hello world !");
 	}
-	
+	//http://localhost:8080/atividades/hello
 }
